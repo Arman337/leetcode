@@ -36,5 +36,7 @@ function convert(s, numRows) {
   }
   
   return arr.join('');
-}; /*time complexity O(n) space complexity O(1)*/
+}; 
+
+/*time complexity O(n) space complexity O(1)*/
                                                
