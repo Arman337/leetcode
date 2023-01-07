@@ -13,8 +13,8 @@ You must do this by modifying the input array in-place with O(1) extra memory.
 */
 
 function removeDuplicates(nums) {
-    for (let i = 1; i < nums.length; i++){
-        if(nums[i] === nums[i - 1]){
+    for (let i = 1; i < nums.length; i++) {
+        if(nums[i] === nums[i - 1]) {
             nums.splice(i, 1);
             i--
         }
